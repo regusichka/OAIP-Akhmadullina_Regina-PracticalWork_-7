@@ -146,7 +146,7 @@ namespace oaip.pract2
             Console.WriteLine("Тестирование контейнера\n");
             DynamicContainer<int> numbers = new DynamicContainer<int>();
 
-            Console.WriteLine("\n--- Добавляем 1000 элементов ---");
+            Console.WriteLine("\n Добавляем 1000 элементов ");
             for (int i = 0; i < 1000; i++)
             {
                 numbers.Add(i * 10);
